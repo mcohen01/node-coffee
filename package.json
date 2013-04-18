@@ -1,7 +1,7 @@
 { "name": "nespresso",
   "version": "1.0.0",
   "scripts": {
-    "start": "ulimit -S -n 5000; up server.js -n 1 -t 1s",
+    "start": "up --port 80 server.js -n 1 -t 1s",
     "test":  "mocha"
   },
   "dependencies": {
